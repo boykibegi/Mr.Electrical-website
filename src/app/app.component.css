@@ -1,0 +1,95 @@
+.topbar{
+    
+    width: 1300px;
+    height: 80px;
+    background: radial-gradient(rgba(255, 255, 255, 0.6));
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    margin-left: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+}
+.menu{
+    height: 40px;
+    width: 550px;
+    position: relative;
+    bottom: 15px;
+}
+
+ul{
+    float: left;
+    display:flex;
+    align-items: left;
+    justify-content: center;
+    
+}
+ul li{
+    list-style: none;
+    margin-left:62px ;
+    margin-top:27px ;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration:wavy;
+    color: rgb(38, 25, 214);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.1s ease-in-out;
+}
+ul li a:hover{
+   color: rgb(16, 230, 219);
+}
+.search{
+    width:330px ;
+    position: relative;
+    left: 800px;
+    bottom:60px;
+    
+    
+}
+
+.srch{
+    font-family:'Times New Roman';
+    width: 200px;
+    float: left;
+    position: relative;
+    bottom: 45px;
+    left: 90px;
+    border: 2px solid rgb(38, 25, 214);
+    height:10px ;
+    border-radius:5px;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    background: transparent;
+    border-top-left-radius: 5px;
+}
+.btn{
+    height:30px;
+    background: rgb(38, 25, 214);
+    position: relative;
+    left: 110px;
+    bottom:50px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline:none;
+}
+.logo{
+    position: relative;
+    height: 80px;
+    bottom: 14px;
+    right: 90px;
+    border-radius: 20px;
+
+}
