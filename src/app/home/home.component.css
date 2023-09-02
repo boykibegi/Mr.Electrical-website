@@ -16,8 +16,10 @@
 
 @keyframes example {
     0% {background-image: url("../../assets/images/Expert-Construction-Electrical-Contractors.jpg");}
+    10% {background-image: url("../../assets/images/black-workman-fixing-server-problem-2021-09-24-03-36-15-utc-2-1024x683.jpg");}
     25% {background-image: url("https://www.onlinecivilforum.com/site/wp-content/uploads/2019/08/Electrical-System-In-Building-jpg.webp");}
     50% {background-image: url("../../assets/images/home-photo-1.jpg");}
+    95% {background-image: url("../../assets/images/telecommunications-engineering-bachelor-degree.jpg");}
     75% {background-image: url("https://www.electroteck.co.uk/wp-content/uploads/2018/01/London-Electrical-Contractors.jpg");}
   }
 

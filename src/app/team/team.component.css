@@ -1,3 +1,273 @@
 .head{
     text-align: center;
 }
+.team{
+    text-align: center;
+    position: absolute;
+    right:400px;
+}
+.slider{
+    width: 1300px;
+    height: 600px;
+    background-image: url("../../assets/images/mr3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+    background-attachment:fixed;
+
+}
+
+@keyframes example {
+    0% {background-image: url("../../assets/images/is_telecommunications_part_of_electrical_engineering.jpg");}
+    10% {background-image: url("../../assets/images/black-workman-fixing-server-problem-2021-09-24-03-36-15-utc-2-1024x683.jpg");}
+    25% {background-image: url("../../assets/images/HVAC--iStock_000026307832Medium.jpg");}
+    50% {background-image: url("../../assets/images/home-photo-1.jpg");}
+    95% {background-image: url("../../assets/images/telecommunications-engineering-bachelor-degree.jpg");}
+    75% {background-image: url("../../assets/images/elect3.jpg");}
+}
+
+
+.E2{
+    position: absolute;
+    right: 5px;
+    top: 45px;
+}
+.E3{
+    position: absolute;
+    right: 30px;
+    top: 60px;
+}
+.E1{
+    position: absolute;
+    right: 20px;
+    top:10px;
+}
+
+.et_pb_column {
+    float: left;
+    position: relative;
+    z-index: 9;
+    background-position: center;
+    background-size: cover;
+}
+.et_pb_text_9.et_pb_text {
+    color: #3e0184!important;
+}
+.et_pb_text_9 {
+    font-family: 'Electroteck',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 60px;
+    line-height: 1.1em;
+}
+.et_pb_module{
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.et_pb_text_align_center {
+    text-align: center;
+}
+.et_pb_text{
+    word-wrap: break-word;
+}
+.et_pb_text > :last-child {
+    padding-bottom: 0;
+}
+.et_pb_text_inner {
+    position: relative;
+}
+.et_pb_text_align_left {
+    text-align: left;
+  
+}
+.et_pb_text_inner {
+    position: relative;
+}
+.et_pb_text_10 h2 {
+    font-style: italic;
+    font-size: 22px;
+    color: #999999 !important;
+    text-align: center;
+}
+.h2{
+    line-height: 1.4em;
+    font-weight:500;
+    padding-bottom: 10px;
+}
+.et_pb_row::after{
+    display: block;
+visibility: hidden;
+clear: both;
+width: 0;
+height: 0;
+line-height: 0;
+content: ".";
+}
+.et_pb_section_8 {
+    padding-top: 23px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+.et_pb_section {
+    position: relative;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+.et_pb_row_9.et_pb_row {
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.et_pb_row{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.et_pb_row {
+    position: relative;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+.p3{
+    position:absolute;
+    color: #222222;
+    font-weight: 500px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    top: 1px;
+    right:55px;
+    text-align: center;
+}    
+.p4{
+    color: #222222;
+    position: absolute;
+    right:45px;
+    text-align: center;
+    top:60px;
+}
+.p5{
+    color: #222222;
+    position: absolute;
+    text-align: center;
+    right:110px;
+    top:60px;
+}
+.p6{
+    color: #222222;
+    position: absolute;
+    right: 2px;
+    top:120px ;
+    
+}
+.p7{
+    color: #222222;
+    position: absolute;
+    right:53px;
+    top: 120px;
+}
+.g1{
+    color: #3e0184 !important;
+    position: absolute;
+    font-family:"sans-serif",Arial,sans-serif;
+    text-shadow: #bbbbbb;
+    font-weight: 600;
+    font-size: 23px;
+    left:90px;
+    top: 1px;
+}
+.p1{
+    color: #222222;
+    position: absolute;
+    font-family:"sans-serif",Arial,sans-serif;
+    font-weight: 300px;
+    right: 20px;
+    top: 30px;
+    font-size: 100%;
+
+}
+.j1{
+    color: #222222;
+    position: absolute;
+    font-family:"sans-serif",Arial,sans-serif;
+    font-weight: 300px;
+    font-size: 100%;
+    right: 20px;
+    top: 50px;
+}
+.j2{
+    color: #222222;
+    position: absolute;
+    font-family:"sans-serif",Arial,sans-serif;
+    font-weight: 300px;
+    font-size: 100%;
+    right: 20px;
+    top: 70px;
+}
+.j3{
+    color:#333333;
+    font-size:170% ;
+    font-weight: 500px;
+    position: absolute;
+    right: 1px;
+
+}
+.t1{
+    font-size: 18px;
+    font-weight: 600;
+    color: #3e0184 !important;
+    position: absolute;
+    right:90px;
+    top:130px ;
+}
+.j4{
+    color: #333333;
+    font-size: 170%;
+    font-weight: 500;
+    position: absolute;
+    top: 200px;
+    right: 1px;
+}
+.j5{
+    color: #333333;
+    font-size: 170%;
+    font-weight: 500;
+    position: absolute;
+    top: 240px;
+    right: 1px;
+ 
+}
+.g2{
+    position: absolute;
+    right:250px;
+}
+.t2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #3e0184 !important;
+    position: absolute;
+    right: 22px;
+    top: 12px;
+    
+}
+.t3{
+    position:absolute;
+    right:37px;
+    top:60px;
+}
+.footer {
+    background-color: #75685c;
+    text-align: center;
+    padding: 10px;
+    height: 50px;
+    font-style: italic;
+    color: #fff;
+}

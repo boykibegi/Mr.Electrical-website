@@ -1,24 +1,186 @@
-<div class="grid-container">
-  <h1 class="mat-h1">Dashboard</h1>
-  <mat-grid-list cols="2" rowHeight="350px">
-    <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
-      <mat-card class="dashboard-card">
-        <mat-card-header>
-          <mat-card-title>
-            {{card.title}}
-            <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
-              <mat-icon>more_vert</mat-icon>
-            </button>
-            <mat-menu #menu="matMenu" xPosition="before">
-              <button mat-menu-item>Expand</button>
-              <button mat-menu-item>Remove</button>
-            </mat-menu>
-          </mat-card-title>
-        </mat-card-header>
-        <mat-card-content class="dashboard-card-content">
-          <div>Card Content Here</div>
-        </mat-card-content>
-      </mat-card>
-    </mat-grid-tile>
-  </mat-grid-list>
-</div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="head">
+    <div class="mt-4 p-5 bg-primary text-white rounded">
+        <h1>PROJECTS UNDERTAKEN (PORTFOLIO)</h1>
+      </div><br>
+      <div class="container-fluid"><img src="../../assets/images/proectsc3.png" alt=""></div><br>
+      <div class="container-fluid"><img src="../../assets/images/projectson.png" alt=""></div><br>
+      <div class="container-fluid"><img src="../../assets/images/projectsc5.png" alt=""></div><br>
+      <div class="container-fluid"><img src="../../assets/images/projectc4.png" alt=""></div><br>
+      <div class="container-fluid"><img src="../../assets/images/projectsc2.png" alt=""></div>
+   </div><br>
+   <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3"><img src="../../assets/images/Domestic-Electrics-Essex-and-London.png" class="img">
+         <div class="cl-ib-content" id="hans" style="padding:10%;"><div class="cl-ib-content-h"><h4 class="cl-ib-title" style="font-size:25px;">DOMESTIC</h4><div class="cl-ib-desc" style="font-size:15px;">Domestic electrical contractors offering full services for your home including repairs, installs and rewiring</div></div>
+       </div>
+       </div>
+        <div class="col-sm-3"><img src="https://www.electroteck.co.uk/wp-content/uploads/2017/12/Commercial-Electrics-Essex-and-London.jpg"alt="Commercial Electrics" class="img">
+         <div class="cl-ib-content" id="hans" style="padding: 10%;"><div class="cl-ib-content-h"><h4 class="cl-ib-title" style="font-size:25px;">COMMECIAL</h4><div class="cl-ib-desc" style="font-size:15px;">Commercial electrical contractors across every specialism, working with businesses of all types and sizes</div></div>
+       </div>
+       </div>
+        <div class="col-sm-3"><img src="https://www.electroteck.co.uk/wp-content/uploads/2017/12/Insustrial-Electrics-Essex-and-London.jpg" alt="Industrial Electrics" class="img">
+         <div class="cl-ib-content" id="hans" style="padding:10%;"><div class="cl-ib-content-h"><h4 class="cl-ib-title" style="font-size:25px;">INDUSTRIAL</h4><div class="cl-ib-desc" style="font-size:15px;">Qualified Industrial Electrical Contractors working to IEE Wiring Regulations at all times</div></div></div>
+       </div>
+        <div class="col-sm-3"><img src="https://www.electroteck.co.uk/wp-content/uploads/2018/01/Construction-Electrical-Contractors-Essex-and-London.jpg" alt="Construction Electrical Contractors Essex and London" class="img">
+         <div class="cl-ib-content" id="hans" style="padding:10%;"><div class="cl-ib-content-h"><h4 class="cl-ib-title" style="font-size:25px;">CONSTRUCTION</h4><div class="cl-ib-desc" style="font-size:15px;">Construction electrical contractor working in partnerships to support and manage projects of any size</div></div></div>
+        </div>
+     </div> 
+   </div>
+   <div class="container-fluid">
+    <div class="et_pb_section  et_pb_section_8 et_section_regular">
+				
+				
+				
+      <div class=" et_pb_row et_pb_row_9">
+    <div class="et_pb_column et_pb_column_4_4  et_pb_column_24 et-last-child">
+    
+    
+    <div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_center  et_pb_text_9">
+    
+    
+    <div class="et_pb_text_inner">
+      Why Choose MR.Electrical.?
+    </div>
+  </div>
+  <div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left  et_pb_text_10">
+    
+    
+    <div class="et_pb_text_inner">
+      <h2>What makes us a preferred contractors</h2>
+    </div>
+  </div> <!-- .et_pb_text -->
+  </div> <!-- .et_pb_column -->
+  </div> 
+    
+  </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+     <div class="col-sm-3">
+     <ul>
+      <li style="color: white;"><i class="material-icons" style="font-size:48px;color:aqua">check_circle</i><div class="p3"><h1>Industry Experts</h1></div></li>
+      <li style="color: white;"><i class="material-icons" style="font-size:48px;color:aqua">check_circle</i><div class="p4"><h1>Highily Qualified</h1></div></li>
+      <li style="color: white;"><i class="material-icons" style="font-size:48px;color:aqua">check_circle</i><div class="p6"><h1>Professional Teams</h1></div></li>
+     </ul>
+     </div>
+     <div class="col-sm-3">
+      <ul>
+        <li style="color: white;"><i class="material-icons" style="font-size:48px;color:aqua">check_circle</i><div class="p3"><h1>Deliver on Time</h1></div></li>
+        <li style="color: white;"><i class="material-icons" style="font-size:48px;color:aqua">check_circle</i><div class="p4"><h1>Work to Budget</h1></div></li>
+        <li style="color: white;"><i class="material-icons" style="font-size:48px;color:aqua">check_circle</i><div class="p7"><h1>All specialism</h1></div></li>
+       </ul>
+     </div>
+      <div class="col-sm-3"><ul>
+        <li style="color: white;"><i class="material-icons" style="font-size:48px;color:aqua">check_circle</i><div class="p3"><h1>Qulity Assurance</h1></div></li>
+        <li style="color: white;"><i class="material-icons" style="font-size:48px;color:aqua">check_circle</i><div class="p4"><h1>client Satisfication</h1></div></li>
+        <li style="color: white;"><i class="material-icons" style="font-size:48px;color:aqua">check_circle</i><div class="p7"><h1>problem solvers</h1></div></li>
+       </ul>
+      </div>
+      <div class="col-sm-3"><ul>
+        <li style="color: white;"><i class="material-icons" style="font-size:48px;color:aqua">check_circle</i><div class="p3"><h1>Guaranteed work</h1></div></li>
+        <li style="color: white;"><i class="material-icons" style="font-size:48px;color:aqua">check_circle</i><div class="p5"><h1>Any Sector</h1></div></li>
+        <li style="color: white;"><i class="material-icons" style="font-size:48px;color:aqua">check_circle</i><div class="p7"><h1>Recommended</h1></div></li>
+       </ul>
+      </div>
+    </div>  
+  </div>
+  <div class="container-fluid">
+    <div class="container-fluid">
+      <div class="et_pb_section  et_pb_section_8 et_section_regular">
+          
+          
+          
+        <div class=" et_pb_row et_pb_row_9">
+      <div class="et_pb_column et_pb_column_4_4  et_pb_column_24 et-last-child">
+    
+      
+      <div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_center  et_pb_text_9">
+      
+      
+      <div class="et_pb_text_inner">
+        Our  Contract Clients
+      </div>
+    </div> <!-- .et_pb_text --><div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left  et_pb_text_10">
+      
+      
+      <div class="et_pb_text_inner">
+        <h2>Just a few of the poeple we work with</h2>
+      </div>
+    </div> <!-- .et_pb_text -->
+    </div> <!-- .et_pb_column -->
+    </div> 
+    </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-2"><img src="../../assets/images/TRA.png" class="img-thumbnail" ></div>
+      <div class="col-sm-2"><img src="../../assets/images/taa-tanzania-airports-authority.jpg" class="img-thumbnail"></div>
+      <div class="col-sm-2"><img src="../../assets/images/Logo-crdb-bank-tanzania-clipart-PNG.png" class="img-thumbnail"></div>
+      <div class="col-sm-2"><img src="../../assets/images/NMBLogo1.png" class="img-thumbnail"></div>
+      <div class="col-sm-2"><img src="../../assets/images/oryx-energies-vector-logo.png" class="img-thumbnail"></div>
+      <div class="col-sm-2"><img src="../../assets/images/large-1563370578-tmda_logo_transparent_bk.png" class="img-thumbnail"></div>
+    </div>
+  </div>
+  <br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-2"><img src="../../assets/images/bugando.jpeg" class="img-thumbnail"></div>
+      <div class="col-sm-2"><img src="../../assets/images/institution_logo-1.png" class="img-thumbnail"></div>
+      <div class="col-sm-2"><img src="../../assets/images/immigration.jpeg" class="img-thumbnail"></div>
+      <div class="col-sm-2"><img src="../../assets/images/necta_logo-01.png" class="img-thumbnail"></div>
+      <div class="col-sm-2"><img src="../../assets/images/BOT.png" class="img-thumbnail"></div>
+      <div class="col-sm-2"><img src="../../assets/images/fire.png" class="img-thumbnail"></div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container-fuid">
+    <div class="row">
+      <div class="col-sm-3">
+        <video width="340" height="270" autoplay muted>
+          <source type="video/mp4; codecs=avc1.4D401E,mp4a.40.2" src="https://github.githubassets.com/images/modules/site/home/globe-900.h264.mp4">
+        </video>
+      </div>
+      <div class="col-sm-3"><img src="../../assets/images/location-icon-location-icon-png-blue.jpeg" style="width:70px;height:70px;">
+       <h4 class="g1">MR.ELECTRICAL LTD</h4>
+       <p class="p1"><span> P.O.Box 10233, Dar-es-salaam</span></p>
+       <p class="j1"><span> Plot 1178, Kangaroo street</span></p>
+       <p class="j2"><span> Mikocheni B.</span></p>
+       <br>
+       <br>
+       <br>
+       <div><i class="material-icons" style="font-size:48px;color:rgb(20, 233, 20)">call</i></div>
+       <h4 class="t1">TELEPHONE</h4>
+       <p class="j3"><span>+255 715 030 392</span></p>
+       <p class="j4"><span>+255 655 088 466</span></p>
+       <p class="j5"><span>+255 746 245 571</span></p>
+      </div>
+      <div class="col-sm-3">
+        <div class="g2"><i class="material-icons" style="font-size:48px;color:#3e0184; ">error</i></div>
+        <h4 class="t2">SERVICE INFORMATION</h4>
+        <div class="t3">
+          <p><Strong><a href="../services/">Electrical contractor</a></Strong><br><strong><a href="../services/">Fire&Preventating System contractor</a></strong><br><strong><a href="../services/">Air Conditioning contractor</a></strong><br><strong><a href="../services/">Plumbing & Sanitations</a></strong><br><strong><a href="../services/">ICT & Security systems</a></strong><br><strong><a href="../services/">Renewable Energy Installation(solar)</a></strong><br><strong><a href="../services/">Elevetor & Escalators Contractor</a></strong><br> Electrical Repairs<br><strong><a href="../services/">Telecommunication Contractor</a></strong><br><strong><a href="../services/">Network Cabling</a></strong></p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="logo"><img src="../../assets/images/logo.jpg" alt="" style="width: 300px;height: 270px;opacity: 10%;"></div>
+      </div>
+    </div>
+  </div><br>
+  <div class="footer"><h4> © <!-- -->2023<!-- --> Mr.Electrical, Inc</h4></div>
+</body>
+</html>
