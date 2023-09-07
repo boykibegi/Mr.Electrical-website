@@ -257,3 +257,26 @@ content: ".";
   font-style: italic;
   color: white;
 }
+.ngb-carousel .wrapper {
+
+  position: relative;
+
+  height: 0;
+
+  padding-top: 55%; /* Keep ratio for 900x500 images */
+
+}
+
+.ngb-carousel .wrapper>img {
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  bottom: 0;
+
+  right: 0;
+
+}

@@ -15,6 +15,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { TeamComponent } from './team/team.component';
 import { ServicesComponent } from './services/services.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { ServicesComponent } from './services/services.component';
     MatMenuModule,
     MatIconModule,
     MatButtonModule,
-    LayoutModule
+    LayoutModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

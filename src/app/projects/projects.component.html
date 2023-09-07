@@ -15,11 +15,26 @@
     <div class="mt-4 p-5 bg-primary text-white rounded">
         <h1>PROJECTS UNDERTAKEN (PORTFOLIO)</h1>
       </div><br>
-      <div class="container-fluid"><img src="../../assets/images/proectsc3.png" alt=""></div><br>
-      <div class="container-fluid"><img src="../../assets/images/projectson.png" alt=""></div><br>
-      <div class="container-fluid"><img src="../../assets/images/projectsc5.png" alt=""></div><br>
-      <div class="container-fluid"><img src="../../assets/images/projectc4.png" alt=""></div><br>
-      <div class="container-fluid"><img src="../../assets/images/projectsc2.png" alt=""></div>
+      <div class="container-fluid">
+        
+        <ngb-carousel>
+        
+          <ng-template ngbSlide *ngFor="let image of images">
+        
+            <div class="wrapper">
+        
+              <img [src]="image.src" alt="Random first slide">
+        
+            </div>
+        
+        
+          </ng-template>
+        
+        </ngb-carousel>
+        
+            
+        
+        </div>
    </div><br>
    <div class="container-fluid">
     <div class="row">
@@ -127,25 +142,106 @@
   </div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-2"><img src="../../assets/images/TRA.png" class="img-thumbnail" ></div>
-      <div class="col-sm-2"><img src="../../assets/images/taa-tanzania-airports-authority.jpg" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/Logo-crdb-bank-tanzania-clipart-PNG.png" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/NMBLogo1.png" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/oryx-energies-vector-logo.png" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/large-1563370578-tmda_logo_transparent_bk.png" class="img-thumbnail"></div>
+      <div class="col-sm-2">
+        <ngb-carousel>
+        
+          <ng-template ngbSlide *ngFor="let photo of photos">
+        
+            <div class="wrapper">
+        
+              <img [src]="photo.src" alt="Random first slide" class="img-thumbnail">
+        
+            </div>
+        
+        
+          </ng-template>
+        
+        </ngb-carousel>
+        
+      </div>
+      <div class="col-sm-2">
+        <ngb-carousel>
+        
+          <ng-template ngbSlide *ngFor="let picture of pictures">
+        
+            <div class="wrapper">
+        
+              <img [src]="picture.src" alt="Random first slide" class="img-thumbnail">
+        
+            </div>
+        
+        
+          </ng-template>
+        
+        </ngb-carousel>
+      </div>
+      <div class="col-sm-2">
+        <ngb-carousel>
+        
+          <ng-template ngbSlide *ngFor="let logo of logos">
+        
+            <div class="wrapper">
+        
+              <img [src]="logo.src" alt="Random first slide" class="img-thumbnail">
+        
+            </div>
+        
+        
+          </ng-template>
+        
+        </ngb-carousel>
+      </div>
+      <div class="col-sm-2">
+        <ngb-carousel>
+        
+          <ng-template ngbSlide *ngFor="let client of clients">
+        
+            <div class="wrapper">
+        
+              <img [src]="client.src" alt="Random first slide" class="img-thumbnail">
+        
+            </div>
+        
+        
+          </ng-template>
+        
+        </ngb-carousel>
+      </div>
+      <div class="col-sm-2">
+        <ngb-carousel>
+        
+          <ng-template ngbSlide *ngFor="let banner of banners">
+        
+            <div class="wrapper">
+        
+              <img [src]="banner.src" alt="Random first slide" class="img-thumbnail">
+        
+            </div>
+        
+        
+          </ng-template>
+        
+        </ngb-carousel>
+      </div>
+      <div class="col-sm-2">
+        <ngb-carousel>
+        
+          <ng-template ngbSlide *ngFor="let bango of bangos">
+        
+            <div class="wrapper">
+        
+              <img [src]="bango.src" alt="Random first slide" class="img-thumbnail">
+        
+            </div>
+        
+        
+          </ng-template>
+        
+        </ngb-carousel>
+      </div>
     </div>
   </div>
   <br>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-2"><img src="../../assets/images/bugando.jpeg" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/institution_logo-1.png" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/immigration.jpeg" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/necta_logo-01.png" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/BOT.png" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/fire.png" class="img-thumbnail"></div>
-    </div>
-  </div>
   <br>
   <br>
   <div class="container-fluid">
@@ -210,5 +306,8 @@
     </div>
   </div><br>
   <div class="footer"><h4> © <!-- -->2023<!-- --> Mr.Electrical, Inc</h4></div>
+  <br><br>
+  
+
 </body>
 </html>
