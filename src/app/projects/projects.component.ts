@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { map } from 'rxjs/operators';
-import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
+
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -31,28 +30,16 @@ export class ProjectsComponent {
   photos =[
     {title:'first',short:'slide short', src:"../../assets/images/TRA.png"},
     
-    {title:'first',short:'slide short', src:"../../assets/images/taa-tanzania-airports-authority.jpg"},
-
-    {title:'first',short:'slide short', src:"../../assets/images/Logo-crdb-bank-tanzania-clipart-PNG.png"},
-
-    {title:'first',short:'slide short', src:"../../assets/images/NMBLogo1.png"},
-
     {title:'first',short:'slide short', src:"../../assets/images/bugando.jpeg"},
-
-    {title:'first',short:'slide short', src:"../../assets/images/large-1563370578-tmda_logo_transparent_bk.png"}
 
 ];
   
   pictures =[
   {title:'first',short:'slide short', src:"../../assets/images/taa-tanzania-airports-authority.jpg"},
   
-  {title:'first',short:'slide short', src:"../../assets/images/Logo-crdb-bank-tanzania-clipart-PNG.png"},
+  {title:'first',short:'slide short', src:"../../assets/images/institution_logo-1.png"},
 
-  {title:'first',short:'slide short', src:"../../assets/images/NMBLogo1.png"},
 
-  {title:'first',short:'slide short', src:"../../assets/images/oryx-energies-vector-logo.png"},
-
-  {title:'first',short:'slide short', src:"../../assets/images/large-1563370578-tmda_logo_transparent_bk.png"},
 
  
 
@@ -62,13 +49,11 @@ export class ProjectsComponent {
 logos =[
   {title:'first',short:'slide short', src:"../../assets/images/Logo-crdb-bank-tanzania-clipart-PNG.png"},
   
-  {title:'first',short:'slide short', src:"../../assets/images/necta_logo-01.png"},
 
-  {title:'first',short:'slide short', src:"../../assets/images/oryx-energies-vector-logo.png"},
 
   {title:'first',short:'slide short', src:"../../assets/images/immigration.jpeg"},
 
-  {title:'first',short:'slide short', src:"../../assets/images/large-1563370578-tmda_logo_transparent_bk.png"},
+
 
   
 
@@ -78,9 +63,7 @@ logos =[
 clients =[
   {title:'first',short:'slide short', src:"../../assets/images/NMBLogo1.png"},
   
-  {title:'first',short:'slide short', src:"../../assets/images/oryx-energies-vector-logo.png"},
-
-  {title:'first',short:'slide short', src:"../../assets/images/large-1563370578-tmda_logo_transparent_bk.png"},
+  {title:'first',short:'slide short', src:"../../assets/images/necta_logo-01.png"},
 
 
 ];
@@ -89,7 +72,7 @@ clients =[
  banners =[
   {title:'first',short:'slide short', src:"../../assets/images/oryx-energies-vector-logo.png"},
   
-  {title:'first',short:'slide short', src:"../../assets/images/large-1563370578-tmda_logo_transparent_bk.png"},
+  {title:'first',short:'slide short', src:"../../assets/images/BOT.png"},
 
   
 
@@ -98,15 +81,7 @@ clients =[
   bangos =[
   {title:'first',short:'slide short', src:"../../assets/images/large-1563370578-tmda_logo_transparent_bk.png"},
   
-  {title:'first',short:'slide short', src:"../../assets/images/taa-tanzania-airports-authority.jpg"},
-
-  {title:'first',short:'slide short', src:"../../assets/images/Logo-crdb-bank-tanzania-clipart-PNG.png"},
-
-  {title:'first',short:'slide short', src:"../../assets/images/NMBLogo1.png"},
-
-  {title:'first',short:'slide short', src:"../../assets/images/oryx-energies-vector-logo.png"},
-
-  {title:'first',short:'slide short', src:"../../assets/images/BOT.png"}
+  {title:'first',short:'slide short', src:"../../assets/images/fire.png"}
 
 ];
 
@@ -118,7 +93,7 @@ clients =[
 
     config.pauseOnHover = true;
 
-    config.showNavigationArrows = true;
+    config.showNavigationArrows = false;
 		config.showNavigationIndicators = false;
 
   }

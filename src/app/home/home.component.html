@@ -187,23 +187,103 @@
   </div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-2"><img src="../../assets/images/TRA.png" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/taa-tanzania-airports-authority.jpg" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/Logo-crdb-bank-tanzania-clipart-PNG.png"class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/NMBLogo1.png" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/oryx-energies-vector-logo.png" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/large-1563370578-tmda_logo_transparent_bk.png" class="img-thumbnail"></div>
-    </div>
-  </div>
-  <br>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-2"><img src="../../assets/images/bugando.jpeg" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/institution_logo-1.png" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/immigration.jpeg" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/necta_logo-01.png" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/BOT.png" class="img-thumbnail"></div>
-      <div class="col-sm-2"><img src="../../assets/images/fire.png" class="img-thumbnail"></div>
+      <div class="col-sm-2">
+        <ngb-carousel>
+        
+          <ng-template ngbSlide *ngFor="let photo of photos">
+        
+            <div class="wrapper">
+        
+              <img [src]="photo.src" alt="Random first slide" class="img-thumbnail">
+        
+            </div>
+        
+        
+          </ng-template>
+        
+        </ngb-carousel>
+        
+      </div>
+      <div class="col-sm-2">
+        <ngb-carousel>
+        
+          <ng-template ngbSlide *ngFor="let picture of pictures">
+        
+            <div class="wrapper">
+        
+              <img [src]="picture.src" alt="Random first slide" class="img-thumbnail">
+        
+            </div>
+        
+        
+          </ng-template>
+        
+        </ngb-carousel>
+      </div>
+      <div class="col-sm-2">
+        <ngb-carousel>
+        
+          <ng-template ngbSlide *ngFor="let logo of logos">
+        
+            <div class="wrapper">
+        
+              <img [src]="logo.src" alt="Random first slide" class="img-thumbnail">
+        
+            </div>
+        
+        
+          </ng-template>
+        
+        </ngb-carousel>
+      </div>
+      <div class="col-sm-2">
+        <ngb-carousel>
+        
+          <ng-template ngbSlide *ngFor="let client of clients">
+        
+            <div class="wrapper">
+        
+              <img [src]="client.src" alt="Random first slide" class="img-thumbnail">
+        
+            </div>
+        
+        
+          </ng-template>
+        
+        </ngb-carousel>
+      </div>
+      <div class="col-sm-2">
+        <ngb-carousel>
+        
+          <ng-template ngbSlide *ngFor="let banner of banners">
+        
+            <div class="wrapper">
+        
+              <img [src]="banner.src" alt="Random first slide" class="img-thumbnail">
+        
+            </div>
+        
+        
+          </ng-template>
+        
+        </ngb-carousel>
+      </div>
+      <div class="col-sm-2">
+        <ngb-carousel>
+        
+          <ng-template ngbSlide *ngFor="let bango of bangos">
+        
+            <div class="wrapper">
+        
+              <img [src]="bango.src" alt="Random first slide" class="img-thumbnail">
+        
+            </div>
+        
+        
+          </ng-template>
+        
+        </ngb-carousel>
+      </div>
     </div>
   </div>
   <br>
@@ -222,13 +302,13 @@
       
       
       <div class="et_pb_text_inner">
-        GET IN TOUCH WITH US 
+        KEEP IN TOUCH WITH US 
       </div>
     </div> <!-- .et_pb_text --><div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left  et_pb_text_10">
       
       
       <div class="et_pb_text_inner">
-        <h2>Just a few of the poeple we work with</h2>
+        <h2>it's our pride to bring your project to life</h2>
       </div>
     </div> <!-- .et_pb_text -->
     </div> <!-- .et_pb_column -->
@@ -239,7 +319,9 @@
   <div class="container-fuid">
     <div class="row">
       <div class="col-sm-3">
-        <h1>MORE INFORMATION?</h1>
+        <video width="340" height="270" autoplay muted>
+          <source type="video/mp4; codecs=avc1.4D401E,mp4a.40.2" src="https://github.githubassets.com/images/modules/site/home/globe-900.h264.mp4">
+        </video>
       </div>
       <div class="col-sm-3"><img src="../../assets/images/location-icon-location-icon-png-blue.jpeg" style="width:70px;height:70px;">
        <h4 class="g1">MR.ELECTRICAL LTD</h4>
@@ -267,6 +349,7 @@
       </div>
     </div>
   </div><br>
-  <div class="footer"><h4>2023.All rights reserved </h4></div>
+  <div class="footer"><h4> © <!-- -->2023<!-- --> Mr.Electrical, Inc</h4></div>
+
   </body>
 </html>

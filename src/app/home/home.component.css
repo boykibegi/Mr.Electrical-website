@@ -20,7 +20,7 @@
     25% {background-image: url("https://www.onlinecivilforum.com/site/wp-content/uploads/2019/08/Electrical-System-In-Building-jpg.webp");}
     50% {background-image: url("../../assets/images/home-photo-1.jpg");}
     95% {background-image: url("../../assets/images/telecommunications-engineering-bachelor-degree.jpg");}
-    75% {background-image: url("https://www.electroteck.co.uk/wp-content/uploads/2018/01/London-Electrical-Contractors.jpg");}
+    75% {background-image: url("../../assets/images/Pastedimage2.png");}
   }
 
 .card{
@@ -340,5 +340,5 @@ content: ".";
     padding: 10px;
     height: 50px;
     font-style: italic;
-    text-decoration-color: white;
+    color: white;
 }
