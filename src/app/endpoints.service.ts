@@ -8,7 +8,7 @@ import{map} from 'rxjs';
   providedIn: 'root'
 })
 export class EndpointsService {
-   host = 'http://localhost:3000';
+   host = 'https://boqsystem.vercel.app';
   constructor(private http:HttpClient) { }
   
   readUser(){
@@ -26,5 +26,8 @@ export class EndpointsService {
 
   readProducts(){
     return this.http.get<Product[]>(`${this.host}/product/goods`).pipe(map((res)=> res ))
+  }
+  addProduct(product:Product){
+    return this.http.post(`${this.host}/product/item`,product)
   }
 }

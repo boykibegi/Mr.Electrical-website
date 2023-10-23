@@ -8,6 +8,7 @@ import { ServicesComponent } from './services/services.component';
 import { BoqsystemComponent } from './boqsystem/boqsystem.component';
 import { SigninComponent } from './signin/signin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AddProductComponent } from './add-product/add-product.component';
 
 const routes: Routes = [
   {path:'home',component:HomeComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path:'services',component:ServicesComponent}, 
   {path:'boqsystem',component:BoqsystemComponent},
   {path:'signin',component:SigninComponent},
-  {path:'dashboard',component:DashboardComponent}]
+  {path:'dashboard',component:DashboardComponent},
+  {path:'add-Product',component:AddProductComponent}]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

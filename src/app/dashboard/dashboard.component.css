@@ -4,4 +4,8 @@
 table {
     width: 100%;
   }
-  
+.add{
+    position: relative;
+    float: left;
+    
+}  

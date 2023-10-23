@@ -21,6 +21,7 @@ import { BoqsystemComponent } from './boqsystem/boqsystem.component';
 import { SigninComponent } from './signin/signin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {MatTableModule} from '@angular/material/table';
+import { AddProductComponent } from './add-product/add-product.component';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import {MatTableModule} from '@angular/material/table';
     BoqsystemComponent,
     SigninComponent,
     DashboardComponent,
+    AddProductComponent,
     
      
   ],
