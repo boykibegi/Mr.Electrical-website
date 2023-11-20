@@ -54,7 +54,7 @@ import {DataTablesModule} from 'angular-datatables'
     HttpClientModule,
     FormsModule,
     MatTableModule,
-    DataTablesModule
+    DataTablesModule.forRoot()
     
     
     
