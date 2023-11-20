@@ -9,3 +9,34 @@ table {
     float: left;
     
 }  
+.search{
+   position: relative;
+   float: right;
+   color:rgb(5, 5, 5);
+}
+.srch{
+    font-family:'Times New Roman';
+    width: 200px;
+    height:10px ;
+    border-radius:5px;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    
+    background:white;
+    position: relative;
+    left: 7px;
+    color: rgb(14, 18, 240);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline:none;
+}

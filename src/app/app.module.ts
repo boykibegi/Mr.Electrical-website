@@ -22,6 +22,7 @@ import { SigninComponent } from './signin/signin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {MatTableModule} from '@angular/material/table';
 import { AddProductComponent } from './add-product/add-product.component';
+import {DataTablesModule} from 'angular-datatables'
 
 
 @NgModule({
@@ -52,7 +53,11 @@ import { AddProductComponent } from './add-product/add-product.component';
     NgbModule,
     HttpClientModule,
     FormsModule,
-    MatTableModule
+    MatTableModule,
+    DataTablesModule
+    
+    
+    
     
   ],
   providers: [],
