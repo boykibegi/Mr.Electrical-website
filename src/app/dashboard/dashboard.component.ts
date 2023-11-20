@@ -20,7 +20,8 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit(){
     this.dtoptions={
-      pagingType:'full_numbers'
+      pagingType:'full_numbers',
+      processing:true
     }
     this.endpointService.readProducts().subscribe((data)=>{
       console.log(data)
